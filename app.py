@@ -11,5 +11,6 @@ with open("employees.csv", "r") as file:
         if salary > highest_salary:
             highest_salary = salary
             employee = row["Name"]
+            date=new[DDMMYYYY]
 
 print(f"Highest Salary: {employee} - {highest_salary}")
